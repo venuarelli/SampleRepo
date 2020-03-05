@@ -27,5 +27,7 @@ WebUI.click(findTestObject('LifeCharger/a_About'))
 
 WebUI.click(findTestObject('LifeCharger/a_Home'))
 
+WebUI.takeScreenshot()
+
 WebUI.closeBrowser()
 
