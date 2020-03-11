@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Lifecharger" time="51.136" tests="2" failures="0" errors="0">
+   <testsuite name="Lifecharger" tests="2" failures="0" errors="0" time="51.136" timestamp="2020-03-05 16:24:31" hostname="Venu.Aarelli - ATMECSINLT-595.ATMECS.CORP" id="Test Suites/Lifecharger">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Venu.Aarelli\\git\\SampleRepo\\Reports\\20200305_162427\\Lifecharger\\20200305_162427"/>
+         <property name="logFiles" value="C:\\Users\\Venu.Aarelli\\git\\SampleRepo\\Reports\\20200305_162427\\Lifecharger\\20200305_162427\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Venu.Aarelli\\git\\SampleRepo\\Reports\\20200305_162427\\Lifecharger\\20200305_162427\\1583405698205.png"/>
+         <property name="hostName" value="Venu.Aarelli - ATMECSINLT-595.ATMECS.CORP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.122"/>
+         <property name="hostAddress" value="192.168.12.214"/>
+         <property name="sessionId" value="684840db34a64e4a6ec19373b2c565af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LifeCharger" time="28.672" classname="Test Cases/LifeCharger" status="PASSED">
+         <system-out><![CDATA[2020-03-05 16:24:31 - [TEST_CASE][PASSED] - Test Cases/LifeCharger: Test Cases/LifeCharger
+
+2020-03-05 16:24:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-05 16:24:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-05 16:24:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-05 16:24:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-05 16:24:37 - [TEST_STEP][PASSED] - navigateToUrl("http://lifecharger.org/"): Navigate to 'http://lifecharger.org/' successfully
+
+2020-03-05 16:24:43 - [MESSAGE][PASSED] - Navigate to 'http://lifecharger.org/' successfully
+
+2020-03-05 16:24:43 - [TEST_STEP][PASSED] - click(findTestObject("LifeCharger/a_Archives")): Object: 'Object Repository/LifeCharger/a_Archives' is clicked on
+
+2020-03-05 16:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LifeCharger/a_Archives' is clicked on
+
+2020-03-05 16:24:46 - [TEST_STEP][PASSED] - click(findTestObject("LifeCharger/a_Books I am reading")): Object: 'Object Repository/LifeCharger/a_Books I am reading' is clicked on
+
+2020-03-05 16:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LifeCharger/a_Books I am reading' is clicked on
+
+2020-03-05 16:24:52 - [TEST_STEP][PASSED] - click(findTestObject("LifeCharger/a_About")): Object: 'Object Repository/LifeCharger/a_About' is clicked on
+
+2020-03-05 16:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LifeCharger/a_About' is clicked on
+
+2020-03-05 16:24:55 - [TEST_STEP][PASSED] - click(findTestObject("LifeCharger/a_Home")): Object: 'Object Repository/LifeCharger/a_Home' is clicked on
+
+2020-03-05 16:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LifeCharger/a_Home' is clicked on
+
+2020-03-05 16:24:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-03-05 16:24:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Venu.Aarelli\\git\\SampleRepo\\Reports\\20200305_162427\\Lifecharger\\20200305_162427\\1583405698205.png]]
+
+2020-03-05 16:24:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-05 16:25:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LifeCharger_About" time="21.912" classname="Test Cases/LifeCharger_About" status="PASSED">
+         <system-out><![CDATA[2020-03-05 16:25:00 - [TEST_CASE][PASSED] - Test Cases/LifeCharger_About: Test Cases/LifeCharger_About
+
+2020-03-05 16:25:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-05 16:25:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-05 16:25:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-05 16:25:02 - [TEST_STEP][PASSED] - navigateToUrl("http://lifecharger.org/"): Navigate to 'http://lifecharger.org/' successfully
+
+2020-03-05 16:25:14 - [MESSAGE][PASSED] - Navigate to 'http://lifecharger.org/' successfully
+
+2020-03-05 16:25:14 - [TEST_STEP][PASSED] - click(findTestObject("LifeCharger/a_About")): Object: 'Object Repository/LifeCharger/a_About' is clicked on
+
+2020-03-05 16:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LifeCharger/a_About' is clicked on
+
+2020-03-05 16:25:17 - [TEST_STEP][PASSED] - click(findTestObject("LifeCharger/a_Home")): Object: 'Object Repository/LifeCharger/a_Home' is clicked on
+
+2020-03-05 16:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LifeCharger/a_Home' is clicked on
+
+2020-03-05 16:25:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-05 16:25:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-05 16:24:31 - [TEST_SUITE][PASSED] - Lifecharger: Test Cases/LifeCharger_About]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

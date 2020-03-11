@@ -17,19 +17,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://lifecharger.org/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.click(findTestObject('LifeCharger/a_Archives'))
+WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.username)
 
-WebUI.click(findTestObject('LifeCharger/a_About'))
+WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.password)
 
-WebUI.click(findTestObject('LifeCharger/a_Home'))
+WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('LifeCharger/a_Books I am reading'))
+WebUI.click(findTestObject('Upload_File/a_PIM'))
 
-WebUI.click(findTestObject('LifeCharger/5_steps'))
+WebUI.click(findTestObject('Upload_File/a_Add Employee'))
 
-WebUI.takeScreenshot()
+WebUI.setText(findTestObject('Upload_File/input__firstName'), GlobalVariable.userName_Add_User)
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Upload_File/input__lastName'), GlobalVariable.userName_Add_User)
+
+WebUI.uploadFile(findTestObject('Upload_File/input_Photograph_photofile'), 'C:\\Users\\Venu.Aarelli\\Desktop\\TUIUI_Screenshots\\AfterLogin.PNG')
+
+WebUI.click(findTestObject('Upload_File/save_Button'))
 

@@ -17,19 +17,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://lifecharger.org/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.click(findTestObject('LifeCharger/a_Archives'))
+WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.username)
 
-WebUI.click(findTestObject('LifeCharger/a_About'))
+WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.password)
 
-WebUI.click(findTestObject('LifeCharger/a_Home'))
+WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('LifeCharger/a_Books I am reading'))
+WebUI.mouseOver(findTestObject('OrangeHRM_Recruitment/b_Recruitment'))
 
-WebUI.click(findTestObject('LifeCharger/5_steps'))
+WebUI.click(findTestObject('OrangeHRM_Recruitment/a_Candidates'))
 
-WebUI.takeScreenshot()
+WebUI.setText(findTestObject('OrangeHRM_Recruitment/input_Candidate Name_candidateSearchcandidateName'), 'john.smith')
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('OrangeHRM_Recruitment/input_Keywords_candidateSearchkeywords'), 'candidate')
+
+WebUI.setText(findTestObject('OrangeHRM_Recruitment/input_From_candidateSearchdateApplicationfrom'), '02-03-2020')
 

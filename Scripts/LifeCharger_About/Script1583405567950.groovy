@@ -19,17 +19,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://lifecharger.org/')
 
-WebUI.click(findTestObject('LifeCharger/a_Archives'))
-
 WebUI.click(findTestObject('LifeCharger/a_About'))
 
 WebUI.click(findTestObject('LifeCharger/a_Home'))
-
-WebUI.click(findTestObject('LifeCharger/a_Books I am reading'))
-
-WebUI.click(findTestObject('LifeCharger/5_steps'))
-
-WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 
