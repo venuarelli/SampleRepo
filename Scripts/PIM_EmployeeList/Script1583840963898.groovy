@@ -35,3 +35,5 @@ WebUI.setText(findTestObject('Upload_File/input__lastName'), GlobalVariable.user
 
 WebUI.uploadFile(findTestObject('Upload_File/input_Photograph_photofile'), 'C:\\Users\\Venu.Aarelli\\Desktop\\TUIUI_Screenshots\\AfterLogin.PNG')
 
+WebUI.click(findTestObject('Upload_File/save_Button'))
+
